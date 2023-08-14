@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubble Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+<!-- ------------------------------------------------------------------------- -->
+    <div class="welcome flex">
+        <h1>Welcome to the <span>Bubble Game!</span></h1>
+        <div id="welcome-inner">
+            <h2>Rules:</h2>
+            <br>
+                <p>Click on the number in the bubbles that is displayed on the hit target.</p>
+                <i class="fa-solid fa-arrow-down"></i>
+                <p>You will have 60 seconds to make a score!</p>
+                <br>
+                <h1>Good Luck!</h1>
+                <br>
+                <button>Play <i class="fa-solid fa-play"></i></button>
+                <p>Special Thanks to "Sheriyans Coding School"</p>
+        </div>
+    </div>
+<!-- ------------------------------------------------------------------------- -->
+<div class="counter-page">
+    <h1 id="cd">3</h1>
+</div>
+<!-- ------------------------------------------------------------------------- -->
+    <div id="main" class="flex">
+        <div id="panel">
+            <div id="ptop" class="flex">
+                <div class="elem flex">
+                    <h4>Hit</h4>
+                    <div id="hitval" class="box flex">10</div>
+                </div>
+                <div class="elem flex">
+                    <h4>Timer</h4>
+                    <div id="timeinterval" class="box flex">60</div>
+                </div>
+                <div class="elem flex">
+                    <h4>Score</h4>
+                    <div id="scoreval" class="box flex">0</div>
+                </div>
+                <div class="elem flex">
+                    <h4>High Score</h4>
+                    <div id="hscr" class="box flex">0</div>
+                </div>
+            </div>
+            <div id="pbtm">
+            </div>
+        </div>
+        <div class="bottom flex">
+            <a href="https://in.linkedin.com/in/bhavishya-khunger-947604280" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/bhavishyakhunger/BubbleGame/tree/main" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.threads.net/@khungerbhavishya" target="_blank"><i class="fa-brands fa-square-threads"></i></a>
+        </div>
+        <div class="follow">Follow!</div>
+    </div>
+<!-- ------------------------------------------------------------------------- -->
+
+    <div class="warning">
+        <i class="fa-solid fa-heart-crack"></i><br><br>
+        <h1 id="error">Device Compatibility Error</h1>
+        <h1>Kindly Use a Laptop or PC to play the game!</h1><br><br><br>
+        <h4>PS: if on tablet, try rotating the device.</h4>
+    </div>
+
+<!-- ------------------------------------------------------------------------- -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+<script src="script.js"></script>
+
+</body>
+</html>
